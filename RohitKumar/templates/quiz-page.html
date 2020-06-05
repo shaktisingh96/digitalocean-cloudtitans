@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exam</title>
+</head>
+<body>
+<div class="scp-quizzes-main">
+<div class="scp-quizzes-data">
+    {% for exam_data in exam %}
+  <h3>{exam.question}</h3>
+
+<br/>
+    <input type="radio" id="Fastlearning" name="question1">
+       <label for="Fastlearning">{{exam_data.option1}}</label><br/>
+    <input type="radio"  name="question1">
+       <label>{{exam_data.option2}}</label><br/>
+    <input type="radio" name="question1">
+       <label>{{exam_data.option3}}</label> <br/>
+    <input type="radio" name="question1">
+     <label>{{exam_data.option4}}</label>
+ </div>
+</body>
+</html>
