@@ -1,0 +1,5 @@
+numpy==1.18.3
+opencv-python==4.2.0.34
+opencv-python-headless==4.2.0.34
+dnn==0.3.5.15
+imutils==0.5.3
