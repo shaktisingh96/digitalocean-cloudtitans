@@ -1,0 +1,7 @@
+---------Features---------------
+
+->This Application uses Secure login and Signup Methodologies.
+
+->This Application Provides A Well designed dashboard for teachers to manage their groups
+
+->This Application Provide a easy way to change passwords and User details
